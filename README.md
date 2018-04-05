@@ -13,3 +13,6 @@
 + [Github](https://github.com/meganjoy)
 + [ LinkedIn](https://www.linkedin.com/in/megan-bond-0973ba142/)
 + [Behance](https://www.behance.net/gallery/63051627/Vela-app)
+
+### Fun Fact:
++ I teach slalom skiing to kids during the summer.
