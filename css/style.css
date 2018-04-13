@@ -1,62 +1,59 @@
-
 * {
-    background-color: #FEFAF9;
-    font-family: Roboto, sans-serif;
-  }
+   background-color: #FEFAF9;
+   font-family: Raleway, Roboto, sans-serif;
+   color:	#484848;
+ }
+
 
 html {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    /* border: red 1px solid; */
+   max-width: 960px;
+   margin: 40px auto 0 auto;
 }
+   /* margin: 40px auto 0 200px; */
 
 .brand {
-  font-size: 1.8em;
-  border: 5px blue solid;
-  margin-top: 50px;
-
+ font-size: 2.8em;
+ border: 5px #ffffff solid;
+ background-color: #324650;
+ color: #ffffff;
 }
 
 .highlight {
-  text-decoration: bold;
-  color: blue;
+ text-decoration: bold;
+ color: blue;
 }
 
-
-
-/* .container > ul > li {
-  max-width: 960px;
-  margin: 0 auto;
-} */
-
 .navbar {
-  position: fixed;
-  top: 0px;
-  left: 0;
-  height: 50px;
-  width: 100vw;
-  border: red 1px solid;
-  margin: 0 auto;
+ position: fixed;
+ top: 0px;
+ left: 0;
+ height: 80px;
+ width: 100vw;
+ /* border: red 1px solid; */
+ margin: 0 auto;
+ background-color: #324650;
+
 }
 
 #navbar-items li {
-  list-style-type: none;
-  display: inline;
-  padding: 0px;
-  margin: 5% 4% 0% 0%;
-  position: relative;
+ list-style-type: none;
+ display: inline;
+ padding: 0px;
+ margin: 10% 4% 0% 0%;
+ position: relative;
+ background-color: #324650;
 }
 
 .navbar .dropdown {
-  /* this hides the dropdown menu by default */
-  position: absolute;
-  top: 1em;
-  right: 0;
-  display: none;
+ /* this hides the dropdown menu by default */
+ position: absolute;
+ top: 1em;
+ right: 0;
+ display: none;
 }
 
 .navbar a:hover + .dropdown {
@@ -64,55 +61,69 @@ html {
 }
 
 .navbar > ul.container {
-  //these styles will extend the styles already contained in the .container class
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+ /* these styles will extend the styles already contained in the .container class */
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ align-items: center;
 }
 
 .content {
-  font-family: Raleway;
-  font-size: 40px;
+ font-family: Raleway;
+ font-size: 40px;
 
 }
 
 .content-area {
-  padding: 40px;
-  margins: 20px;
+ padding: 40px;
+ margin: 20px;
 }
 
 .footer {
 }
 
-h1 {
-  text-style: bold;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  margin: 20px;
+  border: 5px solid #FFF;
 }
 
 img {
-  height: 180px;
-  width: 170px;
-  border-radius: 10px;
+ height: 180px;
+ width: 170px;
+ border-radius: 10px;
 }
 
 #Facts{
-  color: darkBlue;
-  background-color: honeydew;
+ color: darkBlue;
+ background-color: honeydew;
 
 }
 
 #img {
-  border-radius: 25px;
-  width: 14.8em;
-  height: 10em;
-  border: 10px darkBlue solid;
+ border-radius: 25px;
+ width: 14.8em;
+ height: 10em;
+ border: 10px darkBlue solid;
 }
 
 
-
-
 #btn {
-  display: block;
+ display: block;
+ text-align: center;
+}
+
+ul {
+ padding-top: 10px;
+}
+
+.navbar {
   text-align: center;
 }
