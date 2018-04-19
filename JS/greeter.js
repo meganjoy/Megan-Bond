@@ -1,4 +1,5 @@
 var name = prompt('What is your name?');
+var output = document.querySelector('#greeting');
 
   var checkName = function(){
     if(name === "") {
@@ -9,4 +10,4 @@ var name = prompt('What is your name?');
 
   checkName(); // kicks off the name-checking the first time
 
-  alert('Hello ' + name);
+output.innerHTML = "<h2 id='greeting'> Thanks for visiting " + name + "</h2>";

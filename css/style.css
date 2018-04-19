@@ -80,8 +80,15 @@ html {
  margin: 20px;
 }
 
-.footer {
+.footer ul > li {
+  list-style-type: none;
+  display: inline;
+  align-items: center;
+   margin: 10% 4% 0% 0%;
+   position: relative;
+
 }
+
 
 .gallery {
   display: flex;
@@ -95,6 +102,7 @@ html {
   border: 5px solid #FFF;
 }
 
+
 img {
  height: 180px;
  width: 170px;
@@ -104,7 +112,6 @@ img {
 #Facts{
  color: darkBlue;
  background-color: honeydew;
-
 }
 
 #img {
@@ -118,6 +125,10 @@ img {
 #btn {
  display: block;
  text-align: center;
+}
+
+#greeting {
+  background-color: gray;
 }
 
 ul {
