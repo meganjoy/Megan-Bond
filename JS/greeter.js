@@ -1,13 +1,15 @@
-var name = prompt('What is your name?');
+var firstName = prompt("Hi there! What's your first name?");
+var lastName = prompt("What's your last name?");
 var output = document.querySelector('#greeting');
 
-  var checkName = function(){
-    if(name === "") {
-      name = prompt('What is your name, for real this time?');
-      checkName(); // repeats until a name exists
-    }
-  }
+var checkName = function() {
+if(firstName && lastName){
+    output.innerHTML = "<p>Thanks for visiting, " + firstName + " " + lastName + ".</p>";
+} else {
+    firstName = prompt('What is your first name, for real this time?');
+    lastName = prompt('What is your last name, for real this time?');
+    checkName();
+}
+}
 
-  checkName(); // kicks off the name-checking the first time
-
-output.innerHTML = "<h2 id='greeting'> Thanks for visiting " + name + "</h2>";
+checkName();
