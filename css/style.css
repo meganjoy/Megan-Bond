@@ -131,6 +131,10 @@ img {
   background-color: gray;
 }
 
+#game {
+  background-color: darkGray;
+}
+
 ul {
  padding-top: 10px;
 }

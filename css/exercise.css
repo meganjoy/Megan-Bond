@@ -1,0 +1,33 @@
+html {
+   box-sizing: border-box;
+}
+
+.container {
+   max-width: 960px;
+   margin: 40px auto 0 auto;
+}
+
+#exerciseOne {
+  background-color: blue;
+  color: wheat;
+}
+
+#exerciseTwo {
+  background-color: darkBlue;
+  color: white;
+}
+
+#exerciseThree {
+  background-color: darkGreen;
+  color: white;
+}
+
+#exerciseFour {
+  background-color: black;
+  color: white;
+}
+
+#exerciseFive {
+  background-color: darkGray;
+  color: white;
+}
